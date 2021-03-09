@@ -8,10 +8,6 @@ import data from './data.js'
 import QrReader from 'react-qr-reader'
 import Phone from './phoneInput.js'
 
-/*
--polish looks
-*/
-
 
 function ErrorMessage(){
     useEffect(() =>{

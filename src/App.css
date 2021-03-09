@@ -168,6 +168,7 @@ body{
     display: flex;
     flex-direction: column;
     z-index: 1;
+    margin-bottom: 110px;
 }
 
 #userPic{
@@ -357,12 +358,12 @@ body{
 #settingsPasswordIcon1{
     position: absolute;
     right: 15%;
-    bottom: 26.8%;
+    bottom: 325px;
 }
 #settingsPasswordIcon2{
     position: absolute;
     right: 15%;
-    bottom: 21.4%;
+    bottom: 263px;
 }
 #phoneContainer{
     display: flex;
@@ -472,6 +473,8 @@ body{
 }
 #refundDescription{
     text-align: center;
+    font-weight: 700;
+    color: #343333;
 }
 #returnableProcentage{
     width: 75%;
@@ -535,7 +538,7 @@ body{
         font-size: 0.8rem;
     }
     #switchSlider{
-        bottom: 16.6%;
+        bottom: 17.2%;
     }
     #switchButton{
         width: 25%;
@@ -588,7 +591,7 @@ body{
     to{left: 10.2%;}
     }
     #switchSlider{
-        bottom: 16.7%;
+        bottom: 17.3%;
     }
     #settingsNewImage{
         margin-left: 35%;
@@ -627,9 +630,11 @@ body{
     }
     #settingsPasswordIcon1{
         margin-bottom: 4px;
+        bottom: 328px;
     }
     #settingsPasswordIcon2{
         margin-bottom: 4px;
+        bottom: 266px;
     }
     .switchOffAnimtion{
         left: 10.2%;
@@ -646,7 +651,7 @@ body{
     to{left: 10.2%;}
     }
     #switchSlider{
-        bottom: 17.1%;
+        bottom: 17.8%;
     }
     #switchButton{
         width: 12%;
@@ -671,7 +676,7 @@ body{
         width: 10%;
     }
     #switchSlider{
-        bottom: 17.4%;
+        bottom: 18.1%;
     }
     .switchOffAnimtion{
         left: 10%;
@@ -698,6 +703,14 @@ body{
     }
     #newItemButton{
         width: 30%;   
+    }
+     #settingsPasswordIcon1{
+         bottom: 332px;
+         
+    }
+    #settingsPasswordIcon2{
+        bottom: 269px;
+        
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -732,16 +745,24 @@ body{
     to{left: 10%}
     }
      #switchSlider{
-        bottom: 17.5%;
+        bottom: 18.1%;
+    }
+    #settingsPasswordIcon1{
+         bottom: 330px;
+         
+    }
+    #settingsPasswordIcon2{
+        bottom: 266px;
+        
     }
 }
 @media only screen and (min-width: 2560px) {
     .App{
-        width: 40%;
-        left: 30%
+        width: 30%;
+        left: 35%
     }
     #switchButton{
-        width: 8%;
+        width: 9%;
     }
     .switchOffAnimtion{
         left: 10%;
@@ -758,10 +779,21 @@ body{
     to{left: 10%}
     }
      #switchSlider{
-        bottom: 17.8%;
+        bottom: 17.9%;
     }
     #settingsNewImage{
         margin-left: 12%;
         margin-top: 1%;
+    }
+    #newItemButton{
+        width: 30%;
+    }
+     #settingsPasswordIcon1{
+         bottom: 327px;
+         
+    }
+    #settingsPasswordIcon2{
+        bottom: 264px;
+        
     }
 }

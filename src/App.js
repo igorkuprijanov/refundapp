@@ -8,6 +8,10 @@ import data from './data.js'
 import QrReader from 'react-qr-reader'
 import Phone from './phoneInput.js'
 
+/*
+-polish looks
+*/
+
 
 function ErrorMessage(){
     useEffect(() =>{
@@ -207,8 +211,8 @@ class App extends React.Component{
          <h3 id='refundDescription'>Price of this item is {data[data.length-1].amount}€ plus VAT ({parseInt(data[data.length-1].amount)*0.21}€) making it total of {(parseInt(data[data.length-1].amount)*0.21)+parseInt(data[data.length-1].amount)}€. What procentage of the full pirce would you like refunded?</h3>
             <input type='number' id='returnableProcentage' placeholder='Returnable procentage'></input>
             <div id='returnableButtons'>
-            <button id='refundableCancel' onClick={this.closeRefund}>CANCEL</button>
-            <button id='refundableSubmit' onClick={this.howMuchBack}>SUBMIT</button>
+            <button id='refundableCancel' onClick={this.closeRefund}>Cancel</button>
+            <button id='refundableSubmit' onClick={this.howMuchBack}>Submit</button>
            </div>
             <p id='procentageError'>Returnable procentage should be between 1% and 100%</p>
      </div>
